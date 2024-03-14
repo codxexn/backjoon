@@ -15,13 +15,13 @@ public class Main {
 			int a = sc.nextInt();
 			int b = sc.nextInt();
 			
-			result += a * b;
+			result += (a * b);
 		}
 		
-		if (result == x) {
-			System.out.println("Yes");
+		if (x == result) {
+			System.out.println("yes");
 		} else {
-			System.out.println("No");
+			System.out.println("no");
 		}
 	}
 }
